@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admin Login</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../css/styling.css">
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+<link data-default-icon="" data-badged-icon="" rel="shortcut icon" href="https">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+<body>
+<div class="w-100 h-100 bsbb ovh p-a bc-gray">
+	<div class="cntr w-300p h-350p br-5p zi-1000 bc-white ovh p-10p">
+		<div class="form-hol w-100 h-80 p-r">
+			<form method="POST" action="server/server.php?action=login" class="w-100 h-100">
+				<div class="w-100 h-80p center">
+					<font class="fs-20p theme capitalize arial ">store</font>
+				</div>
+				<div class="w-100 h-70p">
+					<div class="w-100 parent p-5p ">
+						<font class="dgray p-a fs-15p label pi-none us-none  ml-30p ">email</font>
+						<input type="text" name="email" class=" black input-2 w-100 no-outline pl-0p center bsbb  mt--3p p-10p fs-15p" placeholder="">					
+					</div>
+				</div>
+				<div class="w-100 h-60p ">
+					<div class="w-100 parent w-100 parent p-5p">
+						<font class="dgray p-a fs-15p pi-none us-none label ml-30p ">password</font>
+						<input type="password" name="password" class=" black input-2 pl-0p w-100 no-outline  bsbb  mt--3p p-10p fs-15p" placeholder="">
+					</div>
+				</div>
+				<div class="w-100 h-20p bsbb">
+					
+				</div>
+				<div class="buttons w-100 h-60p p-10p bsbb">
+					<button class="br-20p b-none bc-theme white center pl-10p pr-10p w-100 p-10p bsbb" type="submit">Login</button>
+				</div>
+			</form>
+		</div>
+		<div class="b-0 p-a w-100 h-60p l-0 center">
+			<font class="left white pt-5p fs-15p"><a href="../" class="td-none theme p-10p">back to home</a></font>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
